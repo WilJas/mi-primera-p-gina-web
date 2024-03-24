@@ -1,34 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Primera Página Web</title>
-  <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de William Jasciel</title>
+  <style>
+    h1, h2, h3 {
+      color: #333; /* Títulos en negro */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Gris claro para el fondo */
+      color: #333; /* Texto principal en negro */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333; /* Negro para el encabezado */
+      color: #fff; /* Texto del encabezado en blanco */
+      padding: 20px 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff; /* Enlaces del menú en blanco */
+      display: inline;
+      margin: 0 10px;
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+
+    #sobre-mi {
+      background-color: #818181;
+      color: #333;
+    }
+    #sobre-mi img {
+      width: 150px; /* Ancho de la imagen */
+      height: auto; /* Altura automática para mantener la proporción */
+    }
+    
+    #proyectos {
+      background-color: #818181;
+      color: #333;
+    }
+
+    #habilidades {
+      background-color: #818181;
+      color: #333;
+    }
+
+    #contacto {
+      background-color: #818181;
+      color: #333;
+    }
+
+    footer {
+      background-color: #333; /* Negro para el pie de página */
+      color: #fff; /* Texto del pie de página en blanco */
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenido a mi Página Web</h1>
+    <h1>Mi portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>¡Hola! Soy William Jasciel, vivo en Jalisco, México y soy un apasionado desarrollador autodidacta con habilidades en HTML, JavaScript, CSS y C. Me encanta el desarrollo de videojuegos y estoy ansioso por contribuir en proyectos emocionantes.</p>
+    <img src="./Imagen de WhatsApp 2024-03-11 a las 08.02.37_d98a178f.jpg" alt="Mi foto.">
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1: Trata de un juego muy simple, tipo rpg el cual toma como base el juego de piedra, papel y tijeras, que son remplasados por los tres pokemones iniciales del primer juego: squirtle, bolbasaur y charmander.</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2...</p>
+    </div>
+    <!-- Agrega más proyectos según sea necesario -->
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
     <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#acerca-de">Acerca de</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C</li>
+      <!-- Agrega más habilidades según sea necesario -->
     </ul>
-  </nav>
-  <section id="inicio">
-    <h2>¡Hola Mundo!</h2>
-    <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
   </section>
-  <section id="acerca-de">
-    <h2>Acerca de Mí</h2>
-    <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
-  </section>
+
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
+    <p>Correo electrónico: tuemail@example.com</p>
+    <p>Numero telefonico: tu numero de teléfono</p>
+    <!-- Agrega más detalles de contacto según sea necesario -->
   </section>
+
   <footer>
-    <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+    <p>Derechos de autor &copy; 2024 - William Jasciel</p>
   </footer>
 </body>
 </html>
